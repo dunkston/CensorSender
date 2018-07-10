@@ -1,0 +1,9 @@
+Package: com.dunkston.censorsender
+Name: CensorSender
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Censors the sender in your notifications. Currently only for iMessages.
+Maintainer: dunkston
+Author: dunkston
+Section: Tweaks
