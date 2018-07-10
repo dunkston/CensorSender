@@ -1,0 +1,3 @@
+#Ignore Theos folders
+.theos/
+obj/
