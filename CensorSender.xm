@@ -20,8 +20,7 @@ static void loadPrefs() {
 %hook NCNotificationContent
 
 	- (id)title {
-		%orig;
-		if(enabled && [[self header] isEqualToString:@"Messages"]) return censorText;
+		if(enabled && ([[self header] isEqualToString:@"Messages"] || [[self header] isEqualToString:@"WhatsApp"])) return censorText;
 		else return %orig;
 	}
 
