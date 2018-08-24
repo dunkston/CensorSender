@@ -2,11 +2,11 @@
 #import <Preferences/PSSpecifier.h>
 #import <spawn.h>
 
-@interface CensorSenderSettingsController : PSListController
+@interface CensorSenderPreferencesController : PSListController
 
 @end
 
-@implementation CensorSenderSettingsController
+@implementation CensorSenderPreferencesController
 
 - (NSArray *)specifiers {
 	if (!_specifiers) {
